@@ -1,6 +1,8 @@
 # Big Data NLP Analysis
 
-This project was developed as part of the Big Data Application and Analysis course.
+This project performs multilingual Natural Language Processing (NLP) on customer reviews collected from a flower shop.
+
+The workflow automatically detects the language of each review (Vietnamese, English, or Chinese), applies language-specific preprocessing, and performs multiple NLP analyses to extract useful insights.
 
 ## Main Features
 
@@ -30,9 +32,11 @@ Google Colab
 - pandas
 - numpy
 - matplotlib
+- wordcloud
 - sklearn
+- langdetect
 - nltk
 - underthesea
+- jieba
 - pyvi
 - BERTopic
-- sentence-transformers
